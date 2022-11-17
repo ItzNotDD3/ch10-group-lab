@@ -57,7 +57,29 @@ nav li a {
     color: #000000;
     text-decoration: none;
 }
+.mobile-nav a {
+  color: #fff;
+  text-align: center;
+  font-size: 2em;
+  text-decoration: none;
+  padding: 3%;
+  display: block;
+}
 
+.mobile-nav a.nav-icon {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #f6eee4;
+  padding: 2%;
+}
+
+.nav-icon div {
+  height: 40px;
+  width: 40px;
+  background-color: #2a1f14;
+}
 /* Style rules for main content */
 main {
     padding: 2%;
@@ -130,9 +152,15 @@ span.tab-desk {
 /* Tablet Viewport: Style rule for nav area */
 nav li {
   display: inline-block;
-  font-size: 1.5em;
-  border-right: 1px solid #e5e9fc;
+  font-size: 1.25em;
   border-top: none;
+}
+nav li a {
+  padding: 0.5em;
+  display: block;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
 }
 nav li:last-child {
   border-right: none;
